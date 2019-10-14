@@ -1,0 +1,74 @@
+.container {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: lightsalmon;
+}
+
+.result p {
+  color:black;
+  font-size: 30px;
+}
+
+.btn {
+  width: 200px;
+  background-color: peachpuff;
+  color: white;
+  border-radius: 13px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  opacity: .7;
+}
+.headerslide {
+  background-image:url(appetizer-bowls-cuisine-1640770.jpg);
+  height:800px;
+  background-size:cover;
+}
+
+.headerslide h1 {
+
+  text-align: center;
+  padding-top: 350px;
+
+}
+
+.headerHeader{
+  height:40px;
+  width: 100%;
+  background-color:grey;
+  position: fixed;
+  top:0;
+  float:left;
+}
+
+.headerHeader a{
+  height:20px;
+  width: 70px;
+  float: right;
+margin-top:10px ;
+   
+}
+
+
+
+.headerHeader h1{
+  
+  background-color:grey;
+  position: fixed;
+  top:0;
+  float:left;
+}
